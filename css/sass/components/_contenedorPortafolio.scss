@@ -1,0 +1,13 @@
+/* Contenedor Portafolio */
+.portafolio {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.portafolio .flex-portafolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

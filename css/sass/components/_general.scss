@@ -1,0 +1,28 @@
+/* COLORES */
+$colorPrimario: #6d008f;
+$colorSecundario: #0b0329;
+$colorBlack: #000000;
+$colorWhite: #ffffff;
+
+/* FONT */
+$fontPrimary: Arial;
+
+/* ? Estilos Generales */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: $fontPrimary;
+}
+
+body {
+    background-color: $colorSecundario;
+}
+
+.flex-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100px;
+    font-size: 18px;
+}
