@@ -1,13 +1,40 @@
 /* Contenedor Portafolio */
 .portafolio {
-    display: flex;
+    /*     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    align-self: flex-start; */
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* .portafolio .centro {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .portafolio .flex-portafolio {
-    display: flex;
+    /*  display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portafolio .flex-portafolio .item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.portafolio .flex-portafolio .item>img {
+    width: 100%;
+
 }

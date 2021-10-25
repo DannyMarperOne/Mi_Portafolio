@@ -1,4 +1,8 @@
 /* Contenedor About me & My Skills */
+.about-me {
+    margin-bottom: 100px;
+}
+
 .about-me .flex-content-about {
     /*  display: flex;
     flex-direction: row;
@@ -9,13 +13,12 @@
     display: grid;
     grid-template-columns: 2fr 4fr;
     gap: 30px;
-    margin-left: 17px;
-    margin-right: 20px;
+    
+
 }
 
 /* .about-me .flex-content-about .people {
-    width: 30%;
-    //background-color: $colorWhite;
+    background-color: red;
 } */
 
 .about-me .flex-content-about h3 {
@@ -27,6 +30,7 @@
     text-align: justify;
     font-size: 18px;
     line-height: 30px;
+
 }
 
 /* 
@@ -53,13 +57,16 @@
     height: auto;
    padding-bottom: 10%; 
 } */
+/* .skills-flex .tecnology {
+    background: red;
+} */
 
-.skills-flex div>img {
+.skills-flex .tecnology>img {
     width: 100%;
     height: 100px;
 }
 
-.skills-flex div>p {
+.skills-flex .tecnology>p {
     display: block;
     text-align: center;
     font-size: 12px;
