@@ -1,6 +1,8 @@
 /* Contenedor About me & My Skills */
 .about-me {
     margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about-me .flex-content-about {
@@ -47,8 +49,8 @@
 
     /* grid */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 
 }
 

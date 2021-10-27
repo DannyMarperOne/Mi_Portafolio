@@ -119,6 +119,8 @@ header #menu ul li a:hover {
 /* Contenedor About me & My Skills */
 .about-me {
   margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .about-me .flex-content-about {
@@ -158,8 +160,8 @@ header #menu ul li a:hover {
   align-items: center; */
   /* grid */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
 /* .skills-flex .tecnology {
@@ -211,11 +213,8 @@ header #menu ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly; */
   display: grid;
-  width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .portafolio .flex-portafolio .item {
