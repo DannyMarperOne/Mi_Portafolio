@@ -4,9 +4,10 @@
     flex-direction: column;
     align-self: flex-start; */
     margin-bottom: 100px;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 /* .portafolio .centro {
@@ -20,16 +21,24 @@
     flex-wrap: wrap;
     justify-content: space-evenly; */
     display: grid;
-    grid-gap: 35px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+
 }
 
 .portafolio .flex-portafolio .item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
 }
 
-.portafolio .flex-portafolio .item>img {
-    width: 100%;
+.portafolio .flex-portafolio .item img {
+    width: 90%;
+    height: 185px;
+    justify-content: center;
+    object-fit: cover;
+    border: 10px;
+    border-color: white;
 }
